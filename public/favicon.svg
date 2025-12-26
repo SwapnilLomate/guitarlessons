@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <linearGradient id="guitarGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f59e0b;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#d97706;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <!-- Guitar body -->
+  <ellipse cx="50" cy="65" rx="30" ry="25" fill="url(#guitarGrad)" stroke="#92400e" stroke-width="2"/>
+  <!-- Sound hole -->
+  <circle cx="50" cy="65" r="10" fill="#451a03"/>
+  <!-- Guitar neck -->
+  <rect x="45" y="15" width="10" height="40" fill="#78350f" stroke="#451a03" stroke-width="1"/>
+  <!-- Headstock -->
+  <rect x="43" y="5" width="14" height="12" rx="2" fill="#78350f" stroke="#451a03" stroke-width="1"/>
+  <!-- Tuning pegs -->
+  <circle cx="46" cy="9" r="2" fill="#fbbf24"/>
+  <circle cx="54" cy="9" r="2" fill="#fbbf24"/>
+  <circle cx="46" cy="14" r="2" fill="#fbbf24"/>
+  <circle cx="54" cy="14" r="2" fill="#fbbf24"/>
+  <!-- Strings -->
+  <line x1="47" y1="17" x2="47" y2="85" stroke="#fef3c7" stroke-width="0.5"/>
+  <line x1="50" y1="17" x2="50" y2="85" stroke="#fef3c7" stroke-width="0.5"/>
+  <line x1="53" y1="17" x2="53" y2="85" stroke="#fef3c7" stroke-width="0.5"/>
+  <!-- Star sparkle -->
+  <path d="M80 20 L82 25 L87 25 L83 28 L85 33 L80 30 L75 33 L77 28 L73 25 L78 25 Z" fill="#fbbf24"/>
+</svg>
